@@ -1,6 +1,25 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is created for a interface that allows a user to view a list of hardcoded
+users from a mock API server. On clicking on any user, a modal opens which displays
+all the time ranges during which they were active on that day, with an option to view all the
+periods of activity for different days using a calendar
 
-## Available Scripts
+## Creating Mock Server
+
+Run `npm install -g json-server`
+Save the json file as `test.json`
+
+## start Mock Server
+
+Run `json-server --watch test.json` in project directory
+
+## Endpoint
+
+user list - `http://localhost:3000/members`
+userDetails - `http://localhost:3000/members/id`
+
+---
+
+## UI Code
 
 In the project directory, you can run:
 
@@ -8,6 +27,7 @@ In the project directory, you can run:
 
 Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+If this throw error like port 3000 is busy run on some other port y/n - y
 
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.

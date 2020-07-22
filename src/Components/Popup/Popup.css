@@ -1,0 +1,42 @@
+.Popup {
+  position: fixed;
+  top: 13%;
+  left: 26%;
+  z-index: 1;
+  background-color: white;
+  padding: 20px;
+  margin: auto;
+  width: 44%;
+  height: 36vh;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.Popup .content {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  color: black;
+}
+.Popup .content .close {
+  display: block;
+  padding: 8px 20px;
+  font-weight: 700;
+  font-size: 18px;
+  background-color: #4484c4;
+  color: #fff;
+  border-radius: 3px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: 0.4s ease-out;
+  position: absolute;
+  bottom: 10%;
+  left: 43%;
+}
+.noActivity {
+  color: red;
+  padding-top: 25px;
+}
+.startTime {
+  display: block;
+  padding: 20px 0px;
+}
