@@ -21,7 +21,10 @@ userDetails - `http://localhost:3000/members/id`
 
 ## UI Code
 
+
 In the project directory, you can run:
+
+## Run `npm install` to install all node_modules
 
 ### `npm start`
 
